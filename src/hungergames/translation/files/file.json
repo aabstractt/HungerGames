@@ -1,0 +1,20 @@
+{
+  "PLAYER_JOIN_GAME": "{%0} &7has joined the game ({%1}/{%2})!",
+  "PLAYER_LEFT_GAME": "{%0} &7has left the game ({%1}/{%2})!",
+  "PLAYER_VOTE_CHESTS": "{%0}&e voted for &a&l{%1}&r&e chest items. &7{%2} vote",
+  "CHESTS_SELECTED": "&eSelected &a&l{%0} Chest Items&r&e.",
+  "REFILL_CHESTS": "&aChests has been refilled.",
+  "DAMAGES_ENABLED_ON": "&cDaños habilitados en {%0} segundo",
+  "WON_MESSAGE": "{%0} GANO EN EL MAPA {%1}",
+  "ADDRESS": "esta es la ip",
+  "LEADERBOARD": "&r&l&6#{%0} &r&b{%1}&f - &e{%2}",
+  "LEADERBOARD_YOU": "&r&l&6#{%0} &r&bYOU&f - &e{%2}",
+  "LEADERBOARD_CONTENT": "&fContenido de la form de leaderboard",
+  "LEADERBOARD_CONTENT_EMPTY": "&fContenido de la form de leaderboard pero cuando esta vacia",
+  "DEATHMATCH_STARTED": "&9Deathmatch has started!",
+  "NAMEDTAG": "&e&lHungerGames\n&7Players {%0}",
+  "STATS": "Name: {%0}, Kills: {%1}, Deaths: {%2}, Games played: {%3}, Wins: {%4}",
+  "GAME_STATUS": "&7----------------------------------------\n&8> &7You got &e{%0}th &7place\n&8> &7Game Length: &e{%1}\n&8> &7Kills: &e{%2}\n&8> &7Chests opened: &e{%3}\n&7----------------------------------------",
+  "PLAYAGAIN_AUTOMODE_ENABLED": "&aAutoMode has been enabled!",
+  "PLAYAGAIN_AUTOMODE_DISABLED": "&eAutoMode has been disabled!"
+}

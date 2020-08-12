@@ -1,0 +1,66 @@
+# Game provider
+# Each player's data is saved in this provider if it is registered in the plugin
+provider: "yaml"
+# If the provider is mysql this data must be modified to how you have the database to connect
+mysql:
+  username: "root"
+  password: "password"
+  dbname: "HungerGames"
+  host: "host"
+
+# Time definition
+# The defined times for all arenas
+defaultLobbytime: 60
+defaultGametime: 1800
+defaultEndtime: 20
+defaultRefilltime: 180
+defaultDeathmatchtime: 900
+defaultInvincibleTime: 15
+
+# If this option is "true", the game will start once all the slots will be finished, regardless from countdown.
+start-when-full: true
+# Max of arenas allowed for map
+arenas-allowed-map: 2
+# Ignore
+development: true
+# Max items per chest
+max-chestcontent: 5
+# Kit default of players
+defaultKit: "default"
+# Kits available to use in hunger games
+kitsAvailable:
+  - default
+
+# Item interaction settings
+items:
+  # This item allows you to see the list of kits that you have using the kits plugin that I created Denzel Code
+  kit-selector:
+    available: false
+    item-name: "&r&cKits"
+    slot: 0
+    item-id: "10:0"
+    item-action:
+      command: "kit list"
+  # This item will show you the name of all available players in your arena
+  spectator:
+    available: true
+    slot: 0
+    item-name: "&r&a&lTeleport player"
+    item-id: "35:0"
+    item-action:
+      command: "hg players"
+  # This item will take you out of your arena and send you to the lobby
+  leave:
+    available: true
+    slot: 8
+    item-name: "&r&c&lLeave"
+    item-id: "399:0"
+    item-action:
+      command: "hub"
+  playagain:
+    available: true
+    slot: 7
+    item-name: "&r&b&lPlay Again"
+    item-id: "5:0"
+    item-action:
+      command: "hg playagain now"
